@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node:
+    image: node:18-alpine
+    volumes:
+      - .:/var/chatgpt-sandbox
+    working_dir: /var/chatgpt-sandbox
+    command: tail -f /dev/null
