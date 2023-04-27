@@ -11,6 +11,7 @@ cp .env.example .env
 ```
 
 .envにopenaiのAPI KEYを設定
+https://platform.openai.com/account/api-keys
 
 ## 実行
 
